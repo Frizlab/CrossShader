@@ -131,7 +131,7 @@ From there we'll need to set up our build files. Be sure to have the following i
 
 - [CMake](https://cmake.org/)
 
-- An IDE such as [Visual Studio](https://visualstudio.microsoft.com/downloads/), [XCode](https://developer.apple.com/xcode/), or a compiler such as [GCC](https://gcc.gnu.org/).
+- An IDE such as [Visual Studio](https://visualstudio.microsoft.com/downloads/), [Xcode](https://developer.apple.com/xcode/), or a compiler such as [GCC](https://gcc.gnu.org/).
 
 Then type the following in your terminal from the repo folder:
 
@@ -139,7 +139,7 @@ Then type the following in your terminal from the repo folder:
 # 🖼️ To build your Visual Studio solution on Windows x64
 cmake . -B build/vs -A x64
 
-# 🍎 To build your XCode project on Mac OS
+# 🍎 To build your Xcode project on Mac OS
 cmake .. -B build/xcode -G Xcode
 
 # 🐧 To build your MakeFile on Linux
